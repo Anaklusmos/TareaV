@@ -18,7 +18,7 @@ SDL_Event Event;
 SDL_Texture *background;
 SDL_Rect rect_background;
 int score=0;
-int mayor=0;
+int temp=0;
 
 void loopJuego()
 {
@@ -31,6 +31,14 @@ void loopJuego()
     rect_background.w = w;
     rect_background.h = h;
 
+    int sco_;
+    ifstream in("score.txt");
+    while (in>>sco_)
+    {
+        temp=sco_;
+        cout << temp <<endl;
+    }
+    in.close();
 
     list<Personaje*> personajes;
     personajes.push_back(new Sho(renderer,&personajes));
@@ -90,12 +98,15 @@ void loopJuego()
             }
 
         score = frame;
-        if (score > mayor)
+        ofstream out("score.txt");
+        if (score < temp)
         {
-            ofstream out("score.txt");
-            out<<score<<endl;
-            out.close();
+            out << score << endl;
+        }else
+        {
+            out << temp << endl;
         }
+        out.close();
 
         SDL_RenderPresent(renderer);
 

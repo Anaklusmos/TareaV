@@ -764,3 +764,56 @@
 	"EnemigoRojo.h"
 	<fstream>
 
+1425062960 source:c:\users\omar\desktop\go\tareav\enemigo.cpp
+	"Enemigo.h"
+
+1425062960 c:\users\omar\desktop\go\tareav\enemigo.h
+	"Personaje.h"
+
+1426257468 c:\users\omar\desktop\go\tareav\personaje.h
+	<SDL.h>
+	<SDL_image.h>
+	<vector>
+	<list>
+	<iostream>
+	<map>
+
+1425062960 source:c:\users\omar\desktop\go\tareav\enemigoazul.cpp
+	"EnemigoAzul.h"
+
+1425062960 c:\users\omar\desktop\go\tareav\enemigoazul.h
+	"Enemigo.h"
+
+1425062960 source:c:\users\omar\desktop\go\tareav\enemigorojo.cpp
+	"EnemigoRojo.h"
+
+1425062960 c:\users\omar\desktop\go\tareav\enemigorojo.h
+	"Enemigo.h"
+
+1425062960 source:c:\users\omar\desktop\go\tareav\enemigoverde.cpp
+	"EnemigoVerde.h"
+
+1425062960 c:\users\omar\desktop\go\tareav\enemigoverde.h
+	"Enemigo.h"
+
+1426266379 source:c:\users\omar\desktop\go\tareav\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	<vector>
+	<list>
+	"Sho.h"
+	"EnemigoAzul.h"
+	"EnemigoVerde.h"
+	"EnemigoRojo.h"
+	<fstream>
+
+1425062960 c:\users\omar\desktop\go\tareav\sho.h
+	"Personaje.h"
+
+1425062960 source:c:\users\omar\desktop\go\tareav\personaje.cpp
+	"Personaje.h"
+
+1425062960 source:c:\users\omar\desktop\go\tareav\sho.cpp
+	"Sho.h"
+
